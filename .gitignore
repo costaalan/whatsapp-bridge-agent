@@ -1,0 +1,46 @@
+# ─── Secrets & Credenciais (NUNCA versionar) ─────────────────────────────
+.env
+.env.*
+*service-account*.json
+credentials*.json
+config.yaml
+*.pem
+*.key
+
+# ─── Logs ──────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ─── Ambiente Virtual ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ─── Scripts (exceto skills/) ──────────────────────────────────────────────
+scripts/
+!skills/
+
+# ─── IDE & Editor ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── WhatsApp Bridge ────────────────────────────────────────────────────────
+session/
+*.session
+auth_state/
+media_cache/
